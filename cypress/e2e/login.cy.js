@@ -1,5 +1,5 @@
 describe('template spec', () => {
-  it('Logar com Sucesso', () => {
+  it.only('Logar com Sucesso', () => {
     cy.viewport(1440,900)
     cy.visit('http://localhost:3000')
     cy.get('#email').type("4dt@gmail.com")
